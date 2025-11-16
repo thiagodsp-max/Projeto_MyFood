@@ -24,11 +24,12 @@ public class Usuario {
     public String getMail() {
         return this.email;
     }
-    //public String getEndereco() {
-        //return this.nome;
-    //}
-    //public String getCpf() {
-        //return this.nome;
-    //}
+    public abstract String getEndereco();
+    public String getCpf() {
+        return null;
+    }
+    public String getId() {
+        return id;
+    }
 
 }
