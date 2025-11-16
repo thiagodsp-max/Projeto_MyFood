@@ -1,9 +1,8 @@
-package src;
 import easyaccept.EasyAccept
 
 public class Main {
     public static void main(String[] args) {
-        String facade = "Facade";
+        String facade = "MyFood.Facade";
         EasyAccept.main(new String[]{facade, "Milestone 01/us1_1.txt"});
         EasyAccept.main(new String[]{facade, "Milestone 01/us1_2.txt"});
         EasyAccept.main(new String[]{facade, "Milestone 01/us2_1.txt"});
